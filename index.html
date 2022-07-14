@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon"
+    href="https://cdn-icons.flaticon.com/png/512/2062/premium/2062198.png?token=exp=1657800462~hmac=3dc5ba4fec2d6b4a3f78904970e135df"
+    type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500&family=Lato:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>War History</title>
+</head>
+
+<body>
+  <div class="header-text">
+    <h4>On 24 February 2022, Russia invaded Ukraine in a major escalation of the Russo-Ukrainian War that began in
+      2014.The invasion caused Europe's largest refugee crisis since World War II, with more than 8.8 million Ukrainians
+      fleeing the country and a third of the population displaced.</h4>
+  </div>
+  <div class="images">
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "wrapAround": true, "percentPosition": false }'>
+      <img src="https://pbs.twimg.com/media/FSLoEJ9WYAIGmLG.jpg:large" />
+      <img
+        src="https://war.ukraine.ua/wp-content/uploads/2022/06/289834206_5543191245712478_2272557166004306693_n-567x378.jpg" />
+      <img src="https://war.ukraine.ua/wp-content/uploads/2022/07/building-in-kharkiv-567x378.jpg" />
+      <img
+        src="https://war.ukraine.ua/wp-content/uploads/2022/03/118__Residents-of-Odesa-are-trying-to-save-the-monument-of-the-Duke-Richelieu-from-Russian-attacks-March-2022-By-Salwan-Georges-567x378.jpg" />
+      <img src="https://war.ukraine.ua/wp-content/uploads/2022/06/photo_2022-06-17_11-22-30-567x378.jpg" />
+      <img
+        src="https://war.ukraine.ua/wp-content/uploads/2022/05/merlin_207002835_901fab97-194a-42a6-a59e-da175911e527-superJumbo-567x378.png" />
+      <img src="https://war.ukraine.ua/wp-content/uploads/2022/05/FTdWpXhXoAUz75L.jpg" />
+      <img
+        src="https://rnz-ressh.cloudinary.com/image/upload/s--vqB_kyAX--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/4LTX19K_image_crop_141216" />
+      <img
+        src="https://war.ukraine.ua/wp-content/uploads/2022/03/145__In-the-city-of-Kharkiv-on-March-25-2022-By-Aris-Messinis-567x378.jpg" />
+      <img src="https://www.japantimes.co.jp/wp-content/uploads/2022/03/np_file_145225.jpeg" />
+    </div>
+  </div>
+  <div class="story-text">
+    <h1>Share with the whole world your short story how your life changed<br>after <span>February 24th</span></h1>
+    <div class="textarea-block">
+      <textarea id="textArea" placeholder="Tell us your story:"></textarea>
+      <button id="btnSend" class="btnSend">Send</button>
+    </div>
+  </div>
+  <div class="list-items">
+    <p id="textInput"></p>
+  </div>
+  <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
